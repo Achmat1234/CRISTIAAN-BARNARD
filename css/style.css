@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #06a9f5;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hero a {
+    padding: 1em;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 130px;
+    color: rgba(243, 247, 6, 0.973);
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+#about {
+    text-align: center;
+    color: rgb(255, 223, 209);
+}
+
+#contact {
+    text-align: center;
+    color: rgb(255, 210, 210);
+}
+
+#history {
+    text-align: center;
+    color: rgb(255, 197, 197);
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#hero {
+    background-image: url('https://www.netcare.co.za/Portals/0/Netcare-Christiaan%20Barnard-Memorial-Hospital-paediatric-ICU-with-harbour-view.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#about {
+    background-image: url('https://stmed.net/sites/default/files/old-spice-wallpapers-30737-1188702.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#history {
+    background-image: url('http://farma.facmed.unam.mx/wp/wp-content/uploads/2017/03/banner-medico-cirujano.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#gallary {
+    background-image: url('https://uvm.mx/documents/20700/46143/uvm_licenciatura_medicina_banner_1280x440.jpg/769a68cc-7fc6-4c57-8cdd-66bfa1eaa65a?t=1476385806000');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#contact {
+    background-image: url('http://www.netcarehospitals.co.za/images/NETCARE_HOSPITAL_IMAGES/Netcare-Christiaan-Barnard-Memorial-Hospital-building-08.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
